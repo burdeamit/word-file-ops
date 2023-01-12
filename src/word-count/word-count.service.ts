@@ -25,7 +25,7 @@ export class WordCountService {
 
     // Filter the words which are length greater than 7 characters
     const bigWords: string[] = words.filter(
-      (word: string): boolean => word.length > 77
+      (word: string): boolean => word.length > 7
     );
 
     //Count the total characters
